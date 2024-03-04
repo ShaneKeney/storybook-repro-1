@@ -13,7 +13,7 @@ const preview: Preview = {
         { name: "cool", value: "deepskyblue" },
       ],
     },
-    actions: { argTypesRegex: "^on[A-Z].*" },
+    actions: { argTypesRegex: "^on(Change|Press|Click).*" },
     controls: {
       matchers: {
         color: /(background|color)$/i,
